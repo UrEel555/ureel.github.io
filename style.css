@@ -1,3 +1,10 @@
+/* Big goog */
+.biggoog {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Search + buttons */
 form {
     width: max-content;
     margin: auto;
@@ -24,6 +31,7 @@ form {
     border-radius: 4px;
 }
 
+/* Header */
 ul {
     list-style-type: none;
     margin: 0;
