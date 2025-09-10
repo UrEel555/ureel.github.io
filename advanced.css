@@ -1,21 +1,43 @@
 /* Big goog */
-.biggoog {
-    text-align: center;
-    font-size: 50px;
-    margin: 0.67em 0.67em 0 0.67em;
+
+h3 {
+    
+    padding: 0px 0px 0px 25px;
 }
 
-h4 {
-    text-align: center;
-    padding:0;
-    margin:0;
+/* Page line*/
+.break {
+    background-color: lightgray;
+    font-size: 0px;
+    width: 200%;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    height: 0.5px
 }
 
 /* Search + buttons */
 form {
     width: max-content;
-    margin: auto;
     padding: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    padding: 5px;
+}
+
+.row input {
+    float: right;
+    margin: 0px 10px;
+}
+
+.row span {
+    align-self: left;
 }
 
 .searchbox {
@@ -84,4 +106,3 @@ ul li .link {
 ul li a:hover {
     background-color: lightblue;
 }
-
