@@ -33,29 +33,24 @@ form {
 
 .row input {
     float: right;
-    margin: 0px 10px;
+    margin: 0px 0px 0px 10px;
+    border: solid 0.5px lightgray;
+    padding: 2px;
 }
 
 .row span {
     align-self: left;
 }
 
-
 .text {
     font-size: 15px;
     text-align: start;
-    margin: 2.5px 2.5px 2.5px 10px;
-    width: 50%;
-    
-
     border: none;
-    outline: none;
-    background: transparent;
 }
 
 .buttonbox {
     width: max-content;
-    margin: auto;
+    float:right;
     padding: 15px 0px;
 }
 
@@ -65,6 +60,8 @@ form {
     border: none;
     border-radius: 4px;
     padding: .5em .8em;
+    background-color: blue;
+    color:white;
 }
 
 /* Header */
