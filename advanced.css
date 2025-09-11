@@ -40,21 +40,12 @@ form {
     align-self: left;
 }
 
-.searchbox {
-    display: block;
-    margin: 0 auto;
-
-    width: 20em;
-    height: 25px;
-    border: 1px lightgray solid;
-    border-radius: 13px;
-    
-}
 
 .text {
     font-size: 15px;
     text-align: start;
     margin: 2.5px 2.5px 2.5px 10px;
+    width: 50%;
     
 
     border: none;
